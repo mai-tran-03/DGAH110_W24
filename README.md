@@ -1,6 +1,6 @@
 # Overview
 ## DataCleanup
-The DataCleanup program takes two text files of a text-to-analyze file and a stopwords file. It processes the text-to-analyze file by removing any non-alphabetical characters and converting all words to lowercase and adding them to a list. It then proccesses the stopwords, commonly used words in English, and add them to a set and removes that set of words from the list of words. Finally, the cleaned data is written to a new text file containing only words and no stopwords.
+The DataCleanup program takes two text files: text-to-analyze and stopwords. It processes the text-to-analyze file by removing non-alphabetical characters, converting all words to lowercase, and adding them to a list. It then processes the stopwords, commonly used words in English, adds them to a set, and removes that set of words from the list of words. Finally, it writes the cleaned data to a new text file containing only words and no stopwords.
 
 ## DataAnalyze
 The DataAnalyze program takes a cleaned text file, from the output of the DataCleanup program. It calculates the word frequency by putting all the words into a map with a count order. It then writes the top 10 most frequent words and least frequent words to a new text file. The file contains the words and their counts.
