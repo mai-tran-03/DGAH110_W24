@@ -37,7 +37,7 @@ public class DataAnalyze {
     }
 
     private void writeBottomWords(BufferedWriter writer, List<Map.Entry<String, Integer>> sortedList, int bottomN) throws IOException {
-        writer.write("Top " + bottomN + " most frequent words:");
+        writer.write("Top " + bottomN + " least frequent words:");
         writer.newLine();
         for (int i = sortedList.size() - 1; i >= Math.max(0, sortedList.size() - bottomN); i--) {
             Map.Entry<String, Integer> entry = sortedList.get(i);
