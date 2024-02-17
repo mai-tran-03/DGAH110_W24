@@ -1,0 +1,22 @@
+Top 10 most frequent words:
+master: 482
+man: 178
+superior: 90
+people: 72
+confucius: 64
+great: 50
+three: 47
+virtue: 46
+things: 36
+work: 35
+Top 10 most frequent words:
+harmless: 1
+locations: 1
+carries: 1
+arbitrary: 1
+idle: 1
+motion: 1
+aims: 1
+greatest: 1
+hearts: 1
+floating: 1
