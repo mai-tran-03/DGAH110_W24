@@ -9,7 +9,7 @@ three: 47
 virtue: 46
 things: 36
 work: 35
-Top 10 most frequent words:
+Top 10 least frequent words:
 harmless: 1
 locations: 1
 carries: 1
